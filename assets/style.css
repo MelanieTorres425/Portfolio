@@ -1,0 +1,40 @@
+body {
+    background-color: #5cbea0;
+}
+
+/*    NAV BAR  */
+.navbar .navbar-expand-lg .navbar-light .bg-light {
+    padding: 20px 16px 10px 16px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #253b70;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #253b70
+}
+
+.navbar-light .navbar-brand {
+    color: #5cbea0;
+    font-weight: bolder;
+}
+
+/*   JUMBOTRON   */
+.jumbotron {
+    margin-top: 10px;
+    padding: 32px;
+    background-color: #309879;
+    text-align: center;
+}
+
+/*    CARDS   */
+.card {
+    display: inline-block;
+    background-color: #253b70;
+    color: white;
+}
+
+.card-img-top {
+    padding: 20px 10px;
+}
