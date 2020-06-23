@@ -8,35 +8,110 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Notable&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
-    <title>Logan Brignoni!</title>
+    <title>Melanie Torres</title>
   </head>
 
 
   <body>
     <!-- Nav-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Boxer Boy</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="contact.html">Contact Me</a>
-          <a class="nav-item nav-link" href="porfolio.html">My Head Shots</a>
-          <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    <nav class="navbar navbar-light" id="navigation">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">Melanie Torres</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="porfolio.html">Portfolio</a>
+            <a class="nav-item nav-link" href="contact.html">Contact Me</a>
+          </div>
         </div>
-      </div>
+      </nav>
     </nav>
 
-  
+    <div class="Container">
+      <section class="mb-4">
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">
+          
+        </p>
 
-    
-    
+        <div class="row">
 
+          <div class="col-md-12">
+            <form id="contact-form" name="contact-form" action="../week2-homework/" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input type="text" id="name" name="name" class="form-control">
+                    <label for="name" class="">Your name</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input type="text" id="email" name="email" class="form-control">
+                    <label for="email" class="">Your email</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <input type="text" id="subject" name="subject" class="form-control">
+                    <label for="subject" class="">Subject</label>
+                  </div>
+                </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-12">
+
+                  <div class="md-form">
+                    <textarea type="text" id="message" name="message" rows="2"
+                      class="form-control md-textarea"></textarea>
+                    <label for="message">Your message</label>
+                  </div>
+
+                </div>
+              </div>
+              <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+          </div>
+          <!--Grid column-->
+        </div>
+      </section>
+    </div>
+      <!--Section: Contact v.2-->
 
 
 
@@ -56,4 +131,4 @@
       crossorigin="anonymous"></script>
   </body>
 
-</html>
+  </html>

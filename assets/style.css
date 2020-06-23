@@ -1,31 +1,54 @@
 body {
-    background-color: #5cbea0;
+    background-color: #d9d5d1;
 }
 
 /*    NAV BAR  */
-.navbar .navbar-expand-lg .navbar-light .bg-light {
+
+#navigation {
+    background-color: #a19e9b;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
+    font-family: 'Anton', sans-serif;
+}
+.navbar .navbar-expand-lg .navbar-light {
     padding: 20px 16px 10px 16px;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #253b70;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-    color: #253b70
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: #000000;
 }
 
 .navbar-light .navbar-brand {
-    color: #5cbea0;
+    color: #9b1770;
     font-weight: bolder;
+    text-shadow: #ffffff;
 }
-
 /*   JUMBOTRON   */
 .jumbotron {
-    margin-top: 10px;
+    margin-top: 5%;
     padding: 32px;
-    background-color: #309879;
+    background-color: white;
     text-align: center;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    font-family: 'Notable', sans-serif;
+    color: #c82192;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #c82192;
 }
 
 /*    CARDS   */
@@ -37,4 +60,27 @@ body {
 
 .card-img-top {
     padding: 20px 10px;
+}
+
+h5 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+/*  CONTACT FORM */
+.btn-primary { 
+    background-color: #c82192;
+    border-color: #c82192;
+    color: #ffffff
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    background-color: #a19e9b;
+    bottom: 0;    
 }
