@@ -51,15 +51,19 @@ a {
     color: #c82192;
 }
 
-/*    CARDS   */
-.card {
-    display: inline-block;
-    background-color: #253b70;
-    color: white;
+/*    PORTFOLIO   */
+.card-body {
+    background-color: #ffffff;
+    text-align: center;
 }
+ h5 {
+    color: #c82192;
+    font-family: 'Notable', sans-serif;
+    font-size: 30px;
+ }
 
 /*  CONTACT FORM */
-h2{
+h2 {
     color: #c82192;
     font-family: 'Notable', sans-serif;
     font-size: 40px;
@@ -87,6 +91,7 @@ ul {
 
 
 
+/*  FOOTER */
 
 .footer{
     position: fixed;
