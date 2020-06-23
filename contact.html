@@ -36,18 +36,27 @@
     </nav>
 
     <div class="Container">
+
       <section class="mb-4">
         <!--Section heading-->
         <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
         <!--Section description-->
         <p class="text-center w-responsive mx-auto mb-5">
-          
+          <ul class="fa-ul mb-4 ml-0">
+            <li id="mail-address">
+              <i class="fas fa-envelope-open mr-2 contact-icons"></i> melanietorres425@gmail.com </a>
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt mr-2 contact-icons"></i>Orlando, FL
+            </li>
+          </ul>
         </p>
 
         <div class="row">
 
           <div class="col-md-12">
-            <form id="contact-form" name="contact-form" action="../week2-homework/" method="POST">
+            <form id="contact-form" name="contact-form" action="https://formspree.io/melanietorres425@gmail.com"
+              method="POST">
 
               <!--Grid row-->
               <div class="row">
@@ -56,7 +65,7 @@
                 <div class="col-md-6">
                   <div class="md-form mb-0">
                     <input type="text" id="name" name="name" class="form-control">
-                    <label for="name" class="">Your name</label>
+                    <label for="name" class="contact-body">Your Name</label>
                   </div>
                 </div>
                 <!--Grid column-->
@@ -64,8 +73,8 @@
                 <!--Grid column-->
                 <div class="col-md-6">
                   <div class="md-form mb-0">
-                    <input type="text" id="email" name="email" class="form-control">
-                    <label for="email" class="">Your email</label>
+                    <input type="text" id="email" name="email" class="form-control" >
+                    <label for="email" class="contact-body">Your Email</label>
                   </div>
                 </div>
                 <!--Grid column-->
@@ -78,7 +87,7 @@
                 <div class="col-md-12">
                   <div class="md-form mb-0">
                     <input type="text" id="subject" name="subject" class="form-control">
-                    <label for="subject" class="">Subject</label>
+                    <label for="subject" class="contact-body">Subject</label>
                   </div>
                 </div>
               </div>
@@ -93,7 +102,7 @@
                   <div class="md-form">
                     <textarea type="text" id="message" name="message" rows="2"
                       class="form-control md-textarea"></textarea>
-                    <label for="message">Your message</label>
+                    <label for="message" class="contact-body">Message</label>
                   </div>
 
                 </div>
@@ -111,7 +120,11 @@
         </div>
       </section>
     </div>
-      <!--Section: Contact v.2-->
+    
+    <footer class="footer">
+      <p>© 2020 - Site Built By MT
+      </p>
+    </footer>
 
 
 

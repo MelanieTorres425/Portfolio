@@ -38,7 +38,7 @@ body {
     box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
 }
 
-h1 {
+h1  {
     font-family: 'Notable', sans-serif;
     color: #c82192;
 }
@@ -58,22 +58,35 @@ a {
     color: white;
 }
 
-.card-img-top {
-    padding: 20px 10px;
-}
-
-h5 {
-    font-family: 'Amatic SC', cursive;
-    font-size: 40px;
-    text-align: center;
-}
-
 /*  CONTACT FORM */
-.btn-primary { 
+h2{
+    color: #c82192;
+    font-family: 'Notable', sans-serif;
+    font-size: 40px;
+    margin: 24px 0px 15px 0px
+}
+
+ul {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn.btn-primary { 
     background-color: #c82192;
     border-color: #c82192;
-    color: #ffffff
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
 }
+
+.contact-body {
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+
+
 
 .footer{
     position: fixed;
@@ -83,4 +96,5 @@ h5 {
     color: white;
     background-color: #a19e9b;
     bottom: 0;    
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
 }
