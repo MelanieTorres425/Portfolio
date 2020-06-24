@@ -63,6 +63,11 @@ a {
  }
 
 /*  CONTACT FORM */
+
+.mb-4{
+    margin: 5%;
+}
+
 h2 {
     color: #c82192;
     font-family: 'Notable', sans-serif;
