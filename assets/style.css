@@ -2,6 +2,10 @@ body {
     background-color: #d9d5d1;
 }
 
+img {
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6)
+}
+
 /*    NAV BAR  */
 
 #navigation {
@@ -29,6 +33,7 @@ body {
     font-weight: bolder;
     text-shadow: #ffffff;
 }
+
 /*   JUMBOTRON   */
 .jumbotron {
     margin-top: 5%;
@@ -62,7 +67,7 @@ a {
     font-size: 30px;
  }
 
-/*  CONTACT FORM */
+/*  CONTACT */
 
 .mb-4{
     margin: 5%;
