@@ -1,7 +1,7 @@
 ## Table of contents
-*[Introduction](#introduction)
-*[Technologies] (#technologies)
-*[Launch] (#launch)
+* [Introduction](#introduction)
+* [Technologies] (#technologies)
+* [Launch] (#launch)
 ## Introduction
 This is my portfolio page. The main page is a little bit about me and links to my web pages. My portfolio page includes links to my projects. My last page is where you can contact me. 
 
