@@ -1,116 +1,113 @@
 body {
-    background-color: #d9d5d1;
+  background-color: #dee2e6;
 }
 
 img {
-    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6)
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
 }
 
 /*    NAV BAR  */
 
 #navigation {
-    background-color: #a19e9b;
-    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
-    font-family: 'Anton', sans-serif;
+  background-color: #8e9aaf;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
+  font-family: "Anton", sans-serif;
 }
 .navbar .navbar-expand-lg .navbar-light {
-    padding: 20px 16px 10px 16px;
+  padding: 20px 16px 10px 16px;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #ffffff;
-    font-weight: bold;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-    color: #ffffff;
-    font-weight: bold;
-    text-shadow: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: #000000;
 }
 
 .navbar-light .navbar-brand {
-    color: #9b1770;
-    font-weight: bolder;
-    text-shadow: #ffffff;
+  color: #ed7fc7;
+  font-weight: bolder;
+  text-shadow: #000000;
 }
 
 /*   JUMBOTRON   */
 .jumbotron {
-    margin-top: 5%;
-    padding: 32px;
-    background-color: white;
-    text-align: center;
-    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
+  margin-top: 5%;
+  padding: 32px;
+  background-color: white;
+  text-align: center;
+  text-shadow: #000000;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
 }
 
-h1  {
-    font-family: 'Notable', sans-serif;
-    color: #c82192;
+h1 {
+  font-family: "Notable", sans-serif;
+  color: #ed7fc7;
 }
 
 p {
-    text-align: center;
+  text-align: center;
 }
 
 a {
-    color: #c82192;
+  color: #ed7fc7;
 }
 
 /*    PORTFOLIO   */
 .card-body {
-    background-color: #ffffff;
-    text-align: center;
+  background-color: #ffffff;
+  text-align: center;
 }
- h5 {
-    color: #c82192;
-    font-family: 'Notable', sans-serif;
-    font-size: 30px;
- }
+h5 {
+  color: #ed7fc7;
+  font-family: "Notable", sans-serif;
+  font-size: 30px;
+}
 
 /*  CONTACT */
 
-.mb-4{
-    margin: 5%;
-   
+.mb-4 {
+  margin: 5%;
 }
 
 h2 {
-    color: #c82192;
-    font-family: 'Notable', sans-serif;
-    font-size: 40px;
-    margin: 24px 0px 15px 0px
+  color: #ed7fc7;
+  font-family: "Notable", sans-serif;
+  font-size: 40px;
+  margin: 24px 0px 15px 0px;
 }
 
 ul {
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
-.btn.btn-primary { 
-    background-color: #c82192;
-    border-color: #c82192;
-    color: #ffffff;
-    font-weight: bold;
-    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
+.btn.btn-primary {
+  background-color: #ed7fc7;
+  border-color: #ed7fc7;
+  color: #ffffff;
+  font-weight: bold;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
 }
 
 .contact-body {
-    font-weight: bold;
-    font-size: 16px;
-
+  font-weight: bold;
+  font-size: 16px;
 }
-
-
 
 /*  FOOTER */
 
-.footer{
-    position: fixed;
-    width: 100%;
-    text-align: center;
-    padding-top: 15px;
-    color: white;
-    background-color: #a19e9b;
-    bottom: 0;    
-    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
+.footer {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+  background-color: #8e9aaf;
+  bottom: 0;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
 }
